@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background: peachpuff;
+}
+ 
+.menu1{
+    position: fixed;
+    height: 50px;;
+     list-style: none;
+     width: 100%;
+      font-family:cursive;
+      font-size: 35px;
+      top:0;
+      right:0px;
+      cursor: pointer;
+      float: right;
+    background-color:rgb(212, 241, 179);
+    
+} 
+.menu1 a{
+    color:tomato !important;
+}
+.links{
+    color: yellowgreen;
+    display: inline;
+    width: 100%;
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.links:hover{
+    
+  background-color: rgb(245, 240, 245);
+
+}
+#home {
+    background-color: lightblue;
+}
+#grid {
+    background-color: rgb(252, 255, 210);
+    padding: 20px;
+}
+#myCarousel {
+    background-color: lavender;
+}
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: springgreen;
+    font-size: 20px;
+}
+
+  
